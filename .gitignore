@@ -1,0 +1,34 @@
+# Python / Flask / Vercel project .gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+ENV/
+env/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+.secret
+
+# SQLite database (local only, not for production)
+nashmi.db
+
+# IDE / editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS files
+.DS_Store
+
+# Vercel deployment artifacts (optional)
+.vercel
+
+# node_modules (if you ever add a package.json for vercel CLI)
+node_modules/
